@@ -7,16 +7,14 @@ type: landing
 sections:
   - block: people
     content:
-      title: Meet the Team
+      title: People involved in KECP
       # Choose which groups/teams of users to display.
       #   Edit `user_groups` in each user's profile to add them to one or more of these groups.
       user_groups:
-          - Principal Investigators
-          - Researchers
-          - Grad Students
-          - Administration
-          - Visitors
+          - Project Leaders
+          - Students and Postdocs
           - Alumni
+          - Field Assistants
       sort_by: Params.last_name
       sort_ascending: true
     design:

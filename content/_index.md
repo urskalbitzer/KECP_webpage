@@ -1,34 +1,120 @@
 ---
 # Leave the homepage title empty to use the site title
 title:
-date: 2022-10-24
+date: 2025-10-19
 type: landing
 
+# sections:
+#   - block: hero
+#     content:
+#       title: Welcome
+#       # Reference an image in your `assets/media/` folder
+#     design:
+#       background:
+#         text_color_light: true
+#         # gradient_end: '#1976d2'
+#         # gradient_start: '#004ba0'
+#         image:
+#           filename: DSC_1114.jpg
+#           size: cover
+#           position: center
+#           parallax: true
+#       spacing:
+#         padding: ["100px", "0", "300px", "0"]
+#         
 sections:
   - block: hero
     content:
-      title: |
-        Research Group
+      title: ''
       image:
-        filename: welcome.jpg
-      text: |
-        <br>
-        
-        The **Wowchemy Research Group** has been a center of excellence for Artificial Intelligence research, teaching, and practice since its founding in 2016.
-  
-sections:
+        filename: Kibale_color_with_black_text.png
+      text:
+        Our aim is to advance understanding of the tropical
+        forest of Kibale National Park and to support the conservation of this
+        unique ecosystem. We study the behavior and ecology of red colobus and
+        other primates; the population dynamics of primates and other wildlife;
+        forest restoration and dynamics; disease transmission among wildlife and
+        people; human–wildlife interactions; and the impacts of climate change
+        and other human-driven environmental changes on the park’s flora and
+        fauna. To this end, we collaborate with a broad network of partners in
+        Uganda and around the world.
+    design:
+      background:
+        text_color_light: false
+        # gradient_end: '#1976d2'
+        # gradient_start: '#004ba0'
+        image:
+          filename: ChapmanKibaleForest.jpg
+          size: cover
+          position: center
+          parallax: true
+          
+  - block: slider
+    content:
+      slides:
+      - title: Primate Ecology and Behavior
+        content: With 12 primate species varying in their diet and social systems, Kibale is an outstanding area to investigate the behavior and ecology of forest-dwelling primates. Our focus is on the leaf-eating red colobus (_Piliocolobus teophreles_).
+        align: center
+        background:
+          image:
+            filename: RedColobus_Colin.jpg
+            filters:
+              brightness: 0.7
+          position: right
+          color: '#666'
+      - title: Forest Restoration
+        content: 'From tree nurseries to the wild.'
+        align: left
+        background:
+          image:
+            filename: 13Nursery.jpg
+            filters:
+              brightness: 0.7
+          position: center
+          color: '#555'
+      - title: Human-Wildlife Interactions
+        content: Elephants, elephants, elephants…
+        align: right
+        background:
+          image:
+            filename: ChapmanForestElephant.JPG
+            filters:
+              brightness: 0.5
+          position: center
+          color: '#333'
+      - title: Disease Ecology
+        content: Symptoms, transmissions, wildlife, humans, …
+        align: right
+        background:
+          image:
+            filename: tyvek_suits_small.jpeg
+            filters:
+              brightness: 0.5
+          position: center
+          color: '#333'
+      #   link:
+            # icon: graduation-cap
+            # icon_pack: fas
+            # text: Join Us
+            # url: ../contact/
+    design:
+      # Slide height is automatic unless you force a specific height (e.g. '400px')
+      slide_height: ''
+      is_fullscreen: true
+      # Automatically transition through slides?
+      loop: false
+      # Duration of transition between slides (in ms)
+      interval: 2000
   - block: people
     content:
       title: Team
       # Choose which groups/teams of users to display.
       #   Edit `user_groups` in each user's profile to add them to one or more of these groups.
       user_groups:
-          - Principal Investigators
-          - Researchers
-          - Grad Students
-          - Administration
-          - Visitors
+          - Project Leaders
+          - Students and Postdocs
           - Alumni
+          - Field Assistants
       sort_by: Params.last_name
       sort_ascending: true
     design:
