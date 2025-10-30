@@ -6,8 +6,9 @@
 # Appearance
 
 appearance:
+  mode: system
   theme_day: minimal
-  theme_night:
+  theme_night: minimal
   font: native
   font_size: L
 
@@ -35,17 +36,18 @@ header:
   navbar:
     enable: true
     align: r
+    fixed_to_top: true
     show_logo: true
     show_language: false
     show_day_night: true
     show_search: true
-    highlight_active_link: false
+    highlight_active_link: true
 
 # Site footer
 
 footer:
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
+    notice: '© {year} KECP. This work is licensed under {license}'
     license:
       enable: true
       allow_derivatives: false
@@ -98,7 +100,7 @@ features:
       index_name: ''
       show_logo: false
   map:
-    provider: 'mapnik'
+    provider: 'mapbox'
     api_key: ''
     zoom: 15
 
