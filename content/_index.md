@@ -48,6 +48,7 @@ sections:
           size: cover
           position: center
           parallax: true
+
   - block: collection
     id: projects
     content:
